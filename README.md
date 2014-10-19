@@ -1,1 +1,68 @@
-Djamolwap 13v -Advance Auto Index With Web Admin Panel + Multi Language + Themes
+#Djamolwap 13v -Advance Auto Index With Web Admin Panel + Multi Language + Themes
+
+Official Website : http://ai.djamol.com
+
+
+Free version Download Now
+DjAmolwap 13version -- >> http://ai.djamol.com/go.php?go=latest
+
+
+Demo Of Future & Installation Live http://youtube.com/phpindia
+
+#----------------[[ Requirements ]]----------------
+* Webserver (Cpanel OS OR Other OS)
+
+   * PHP 5.0 or greater
+
+   * MySQL 5.0 or greater
+
+   * The mod_rewrite Apache module (.htaccess)
+
+(Note : mod_rewrite Apache if this future not avilalble then use DjAmolWap 10.4version without htaccess)
+
+#[[ Easy Install Process ]]
+
+Create Database in Mysql Or Another Database
+   
+Extract All File In YOur Cpanel/PHP account after Open Your Site extract Link http://yourdomain.com/install.php
+   
+After Enter Your Database details And New Admin Login Password And Submit
+   
+Upload All files "files" folder
+
+#Login Admin Panel
+Login http://yourdomain.com/cp/ OR From Mobile http://yourdomain.com/apanel.php With Password after click ON
+
+
+Activate Site Update database Admin Pane > "Full update database" Check Your Site all files added
+
+
+::: Mp3 Tag Edit Automatic Function :::
+
+All Tag Genrate Automatic with your site name And MP3 logo just change albumart.jpg image file with your icon "this file in root install folder"
+
+::Folder Icon Adding ::
+
+
+Add Your Folder Preview Logo in folderpre
+with name <folder id>.png
+
+
+::::Folder Description::
+
+Use Admin Panel> File Manager
+
+Seo Djamol Wap     : 
+
+                     +folder preview seprate folder
+                     +folder discription
+                     +folder preveiw in opening folder
+                     + Seo Tag H1 H2 Added
+                     + Seo Image Title Gerator
+                     +Seo - Automatic Create File /Folder Title 
+                     aslo keyword and discription genrator automatic using folder or file name
+
+
+
+
+
