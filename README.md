@@ -20,7 +20,7 @@ Demo Of Future & Installation Live http://youtube.com/phpindia
 
 (Note : mod_rewrite Apache if this future not avilalble then use DjAmolWap 10.4version without htaccess)
 
-#----------------[[ Easy Install Process ]]----------------
+#-----[[ Easy Install Process ]]-----
 
           Create Database in Mysql Or Another Database
           Extract All File In YOur Cpanel/PHP account after Open Your Site extract Link  
@@ -28,7 +28,7 @@ Demo Of Future & Installation Live http://youtube.com/phpindia
           After Enter Your Database details And New Admin Login Password And Submit
                     Upload All files "files" folder
 
-#----------------[[Login Admin Panel]]----------------
+#-----[[Login Admin Panel]]-----
 
             Login http://yourdomain.com/cp/ OR From Mobile http://yourdomain.com/apanel.php 
                 With Password after click ON
@@ -150,12 +150,12 @@ New Admin Options :
     Multi Language Plugin (ON/OFF)
 
 ||||||||||14 version Pro|||||||
-New Admin Options Pro Vesion :
 
+      New Admin Options Pro Vesion :
                                Auto Genrated Sitemap (Pro Version)
                                All Mp3 Tag (Pro Version) And many more service and function pro version
                                Buy Now Pro Version From http://ai.djamol.com
-||||||||||||||||||||||||||||||
+
 
 
 
