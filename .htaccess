@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([0-9]+)-([0-9]+)_(.*)-(.*).html$ index.php?id=$1&page=$2&lang=$3 [L]
+RewriteRule ^([0-9]+)_(.*)-(.*).html$ index.php?id=$1&lang=$2 [L]
+RewriteRule ^([0-9]+)/(.*)$ load.php?id=$1 [L]
+RewriteRule ^show-([0-9]+)_(.*)-(.*).html$ view.php?id=$1&lang=$2 [L]
+RewriteRule ^sort-name-([0-9]+)-(.*).html$ index.php?sort=name&id=$1&lang=$2 [L]
+RewriteRule ^sort-data-([0-9]+)-(.*).html$ index.php?sort=data&id=$1&lang=$2 [L]
+RewriteRule ^sort-size-([0-9]+)-(.*).html$ index.php?sort=size&id=$1&lang=$2 [L]
+RewriteRule ^sort-load-([0-9]+)-(.*).html$ index.php?sort=load&id=$1&lang=$2 [L]
+RewriteRule ^sort-eval-([0-9]+)_(.*)-(.+)-(.*).html$ index.php?sort=eval&lang=$2&id=$1&url=$3 [L]
+RewriteRule ^sort-eval-([0-9]+)--(.*).html$ index.php?sort=eval&id=$1&lang=$2 [L]
+</IfModule>
+Options -Indexes
+ErrorDocument 400 http://wap.djamol.com?errors=badrequest&code=400
+ErrorDocument 401 http://wap.djamol.com?errors=authreqd&code=401
+ErrorDocument 403 http://wap.djamol.com?errors=VeryBad
+ErrorDocument 404 http://wap.djamol.com?errors=notfound&code=404
+ErrorDocument 500 http://wap.djamol.com?errors=serverr&code=500

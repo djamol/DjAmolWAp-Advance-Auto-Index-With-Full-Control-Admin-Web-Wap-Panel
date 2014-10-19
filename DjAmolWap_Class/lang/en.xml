@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+<name>English</name>
+<eng><!-- Main TAG-->
+    <t>- DjAmol Album, Bollywood Songs, Punjabi, Pakistani, English...</t>
+    <dis>Download Or Play Online This Movie/Album Songs Free Only At Wap.DjAmol.Com</dis>
+    <i>Search Files</i>
+    <i1>Select Category</i1>
+    <i2>Sort By</i2>
+           <sort><a1>Date</a1><a2>Size</a2><a3>Popularity</a3><a4>Rating</a4></sort>
+    <i3>[Empty]: Upload files (Amol Patil Production) in files folder...</i3>
+    <i4>Download</i4>
+    <i5>Read</i5>
+    <i6>Comment.</i6>
+    <i7>NEW!</i7>
+    <i8>Rating</i8>
+    <i9>User Preferences</i9>
+    <!-- Setting TAG-->
+    <st><s1>Pages</s1><s2>Page Setting</s2><s3>Settings</s3><s4>Statistics</s4>
+    <s5>Online</s5><s6>Admin Cp</s6></st>
+    <!-- Meta TAG-->
+    <vk>, mp3, songs, video, mp4, avi, flv,jar, jad, sis, apk,jpg, png, bollywood, hollywood, free content, wap, portal, live player, mp3 player, listen, online, games, application, software</vk>
+    <vt>- Download Now Free...</vt>
+    <!-- File TAG-->
+    <vs><v1>Size</v1><v2>Recent downloads</v2><v3>Time added</v3><v4>Custom size</v4>
+    <v5>Zip Extract View Download Files </v5><v6>Developer</v6><v7>Version</v7><v8>Listen to the Song </v8>
+    <v9>Screenshot</v9><v10>Description</v10><v11>Rate File</v11><v12>Thanks, your vote counted!</v12>
+    <v13>You have already voted for this file.</v13><v14>MOBILE USERS</v14><v15>Back</v15></vs>
+    <h1>Home</h1>
+    <er>Error</er>
+    <!-- Dashboard TAG-->
+    <db1><d1>Invite Friends by Email</d1><d2>Your Name</d2><d3>Friends E-mail</d3><d4>Example(Separated by comma): email@yahoo.com, user@gmail.com</d4>
+    <d5>Message</d5></db1>
+    <db2><d1>Impossible Preview</d1><d2>In category</d2><d3>Empty</d3></db2>
+    <db3><d1>Do not fill one of the fields!</d1><d2>You have not written a comment, or he is too short!</d2><d3>Are not you ashamed? Even the file does not download!</d3>
+    <d4>Why again?!</d4><d5>Your comment has been successfully added!</d5><d6>Comments to the file</d6><d7>At the moment comments for this file is not.</d7><d8>Leave a comment and become the first!</d8></db3>
+    <db4><d1>text Size</d1><d2>The number of characters per page</d2><d3>Preview</d3><d4>On</d4><d5>Off</d5></db4>
+    <!-- Search TAG-->
+    <sr><s1>Enter the part of the filename or file name completely</s1><s2>Error. Do not fill out the field. </s2>
+    <s3>On request </s3><s4>found </s4><s5>file (s)</s5><s6>Sorry, but your search did not precise</s6>
+    <s7>Last 10 Search</s7><s8>- Search Engine..</s8><s9>Not Found</s9></sr>
+    <nw><n1>New Added Files</n1><n2>File</n2><n3>The file is not a </n3><n4>Weight unpacked archive</n4><n5>Total Files</n5><n6>While empty</n6><n7>Total volume</n7><n8>Total downloads</n8><n9>Most Online</n9></nw>
+    <!-- HTML Service TAG-->
+    <html><a1>Other Service</a1><a2>Pakistani, English, POP, Telgu, Punjabi More Songs</a2><a3>Friends Invite By Email</a3>
+    <a4>Top 20 Files</a4><a5>files Added In Our Site..</a5><a6>Keep Visiting</a6><a7>Also Tell Your Friends to Visit our Site. Thanks..</a7>
+    <b1>For Help, Feedback,Support,Query or Complain</b1><b2>Contact us</b2><b3>Advertising with us</b3><b4>Disclaimer</b4><b5>Terms of use</b5>
+    <c1>Submit Your Request From</c1><c2> We will try to complete your requests as soon as possible.</c2><c3>Please Check website for songs already exist or not before submit your request.</c3></html>
+    <!-- D M C A TAG-->
+    <dmca><t1>Terms Of Services</t1><t2>Everything is free when you download from this Mobile site. However, charges still applies by your Mobile/Internet service provider. We are not responsible for your operator data transfer charges for inquiry contact your ISP.</t2><t3>We may allow other companies to serve advertisements on this website and contains links to sites. We are not responsible for anything you BUY from the ads on our web pages or any damage that may be caused by them.</t3><t4>This Website may contain links to other websites which are not under the control of and are not maintained by us. We are not responsible for the content of those sites. we are providing these links to you only as a convenience.</t4><t5>You may keep a downloaded anything(songs, apps, games, images, tones, etc) on your mobile phone for only 24-hours. Once that 24-hour period expires, you must either DELETE it (applications, games, images, tones, etc.) OR PURCHASE it through the rightful owner/publisher of the content, which will give you the rights to keep the file on your mobile phone,or any storage media.</t5><t6>You CANNOT SELL any of the applications, games, images, tones, etc. to anyone in any way.This site is created for individuals who are WAP enthusiasts or hobbyists only.</t6><t7>DjAmol GRoup holds NO responsibility for anything that happens to you or to your mobile phone, wireless device, computer or any storage media at anytime.</t7><t8>By accessing, downloading or viewing any of these files, you agree to all these terms. If you do not agree to all the terms, please disconnect from this site now. By remaining at this site, you affirm your understanding and compliance of the above disclaimer and absolve this site of any responsibility henceforth.</t8>
+    <d1>Disclaimer</d1><d2>Please Read The Disclaimer Before Download Anything From DjAmol GRoup</d2><d3>This is a promotional WAPSITE only, All files placed here are for introducing purpose only.</d3><d4>Please, buy original Songs/contents from author or developer site!</d4><d5>If you do not agree to all the terms, please disconnect from this site now itself.</d5><d6>By remaining at this site, you affirm your understanding and compliance of the above disclaimer and absolve this site of any responsibility henceforth</d6><d7>All files found on this site have been collected from various sources across the web and are believed to be in the "public domain".</d7><d8>All the logos and stuff are the property of their respective owners</d8><d9>If you are the rightful owner of any contents posted here, and object to them being displayed or If you are one of representatives of copy rights department and you dont like our conditions of store, Please Contact Us at djamolpatil[at]gmail.com ,We will remove it in 24 hour!</d9><d10>Downloading and surfing linked sites contents at your own risk!!!</d10>
+    </dmca></eng>
+</project>

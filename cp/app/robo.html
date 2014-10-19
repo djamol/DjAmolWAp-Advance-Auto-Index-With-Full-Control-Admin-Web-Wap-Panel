@@ -1,0 +1,122 @@
+
+	<h3>Analyze Your Robots.txt File</h3>
+	<p>Use our <a href="http://djamol.com/contact.php">Robots.txt analyzer</a> to analyze your robots.txt file today. </p>
+	<p>Google also offers a similar tool inside of <a href="https://www.google.com/webmasters/tools/">Google Webmaster Central</a>, and shows Google crawling errors for your site. </p>
+	<p><img src="cp/THEME/google-crawl-errors.png"></p>
+	<h3>Example Robots.txt Format</h3>
+	<p>Allow indexing of everything</p>
+	<blockquote>User-agent: *<BR>
+	  Disallow: </blockquote>
+	<p>Disallow indexing of everything </p>
+	<blockquote>
+	  <p>User-agent: *<BR>
+	    Disallow: /</p><!--DjAmolGroup Inc. (WwW.DjAmol.Com)-->
+	  </blockquote>
+	<p>Disallow Googlebot from indexing of a folder, except for allowing the indexing of one file in that folder </p>
+	<blockquote>User-agent: Googlebot <br>
+	  Disallow: /folder1/ <br>
+	  Allow: /folder1/myfile.html</blockquote>
+	<h3>Background Information on Robots.txt Files </h3>
+	<ul>
+                <li> Robots.txt files inform search engine spiders how to interact with indexing your content.
+                  <ul>
+                    <li> By default search engines are greedy. They want to index as much high quality information as they can, and they will assume that they can crawl everything unless you tell them otherwise. </li>
+                  <li>If you specify data for all bots (*) and data for a specific bot (like GoogleBot) then <strong>the specific bot commands will be followed while that engine ignores the global/default bot commands</strong>.
+                    <ul>
+                      <li>If you make a global command that you want to apply to a specific bot and you have other specific rules for that bot then you need to put those global commands in the section for that bot as well, as highlighted in <a href="http://www.searchenginejournal.com/robotstxt-4-things-you-should-know/7292/">this article</a> by <a href="http://www.seosmarty.com/">Ann Smarty</a>. <img src="cp/THEME/robots-txt.jpg"> </li>
+                    </ul>
+                  </li>
+                    <li> When you block URLs from being indexed in Google via robots.txt they may still show those pages as URL only listings in their search results. A better solution for completely blocking the index of a particular page is to use a robots noindex meta tag on a per page bases. You can tell them to not index a page, or to not index a page and to not follow outbound links by inserting either of the following code bits in the HTML head of your document that you do not want indexed.
+                      <ul>
+                        <li> &lt;meta name="robots" content="noindex"&gt;</li>
+                      <li>&lt;meta name="robots" content="noindex,nofollow"&gt;</li>
+                      <li>Please note that if you block the search engines in robots.txt and via the meta tags then they may never get to crawl the page to see the meta tags, so the URL may still appear in the search results URL only. </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              <li>
+                If you do not have a robots.txt file, your server logs will return 404 errors whenever a bot tries to access your robots.txt file. You can upload a <em>blank text file named robots.txt</em> in the root of your site (ie: <a href="http://www.seobook.com/robots.txt">seobook.com/robots.txt</a>) if you want to stop getting 404 errors, but do not want to offer any specific commands for bots. </li>
+              <li>Some search engines allow you to specify the address of an XML Sitemap in your robots.txt file, but if your site is well structured with a clean link structure you should not need to create an XML sitemap. </li>
+        </ul>              <!--DjAmolGroup Inc. (WwW.DjAmol.Com)-->
+              <h2>Crawl Delay</h2>
+              <ul>
+                <li>Search engines allow you to set crawl priorities. 
+                  <ul>
+                    <li>Google does not support the crawl delay command directly, but you can lower your crawl priority inside Google Webmaster Central.
+                      <ul>
+                        <li>Google has the highest volume of search market share in most markets, and has one of the most efficient crawling priorities, so you should not need to change your Google crawl priority. <br> <img src="cp/THEME/google-crawl-rate.png"></li>
+                      </ul>
+                    </li>
+                  <li>You can set Yahoo! Slurp crawl delays in your robots.txt file. Yahoo! offers background information <a href="http://help.yahoo.com/l/us/yahoo/search/webcrawler/slurp-03.html">here</a>. 
+                    <ul>
+                      <li>Their robots.txt crawl delay code looks like<br>
+                        <em>User-agent: Slurp <BR>
+                        Crawl-delay: 5</em><br>
+                        where the 5 is in seconds.
+</li>
+                    </ul>
+                    </li>
+                    <li>Microsoft's information is located in their Live Help menu <a href="http://help.live.com/help.aspx?mkt=en-us&project=wl_webmasters">here</a>, but is a bit harder to find.
+                    <ul>
+                      <li>Their robots.txt crawl delay code looks like <br>
+                        <em>User-agent: msnbot<br>
+                      Crawl-delay: 10</em><br><!--DjAmolGroup Inc. (WwW.DjAmol.Com)-->
+                      where the 10 is in seconds.</li>
+                    </ul>
+                  </li><!--DjAmolGroup Inc. (WwW.DjAmol.Com)-->
+                  </ul>
+                </li>
+              </ul>
+              <h2>Robots.txt Wildcard Matching </h2>
+              <p>Google, Yahoo! Search, and Microsoft allow the use of wildcards in robots.txt files. </p>
+              <p>To block access to all URLs that include a question mark (?), you could use the following entry:</p>
+              <blockquote>User-agent: *<br>
+Disallow: /*?</blockquote>
+              <p>You can use the $ character to specify matching the end of the URL. For instance, to block an URLs that end with .asp, you could use the following entry:</p>
+              <blockquote>User-agent: Googlebot<br>
+Disallow: /*.asp$</blockquote>
+              <p>More background on wildcards available from <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=40367">Google</a> and <a href="http://www.ysearchblog.com/archives/000372.html">Yahoo! Search</a>. </p>
+              <h2>URL Specific Tips </h2>
+              <p>Part of creating a clean and effective robots.txt file is ensuring that your site structure and filenames are created based on sound strategy. What are some of my favorite tips? </p>
+              <ul>
+                <li><strong>Avoid Dates in URLs:</strong> If at some point in time you want to filter out date based archives then you do not want dates in your file paths of your regular content pages or it is easy to filter out your regular URLs. There are numerous other reasons to <a href="http://searchengineland.com/080117-083954.php">avoid dates in URLs</a> as well. </li>
+              <li><strong>End URLs With a Backslash: </strong>If you want to block a short filename and it does not have a backslash at the end if it then you could accidentally end up blocking other important pages. </li>
+              <li><strong>Consider related URLs if you use Robots.txt wildcards:</strong> I accidentally <a href="http://www.DJAMOL.COM">cost myself over $10,000 in profit</a> with one robots.txt error! </li>
+              <li><strong>Dynamic URL Rewriting:</strong> <a href="http://www.ysearchblog.com/archives/000479.html">Yahoo! Search offers dynamic URL rewriting</a>, but since most other search engines do not use it, you are probably better off rewriting your URLs in your .htaccess file rather than creating additional rewrites just for Yahoo! Search. </li>
+              <li>More URL tips in the <a href="http://djamol.com/contact">naming files</a> section of our <a href="http://m.djamol.com/">SEO training program</a>. </li>
+              </ul>
+              <h2>Sample Robot Oddities</h2>
+              <h3>Google Generating Search Pages on Your Site?</h3>
+              <p>Google has begun entering search phrases into search forms, which may waste PageRank &amp; <a href="http://smackdown.blogsblogsblogs.com/2008/05/23/googlebot-creates-pages-instead-of-simply-indexing-them-new-form-crawling-algo-goes-bad/">has caused some duplicate content issues</a>. If you do not have a lot of domain authority you may want to consider blocking Google from indexing your search page URL. If you are unsure of the URL of your search page, you can conduct a search on your site and see what URL appears. For instance, </p>
+              <ul>
+                <li>The default Wordpress search URL is usually <em>?s= </em>
+                  <ul><!--DjAmolGroup Inc. (WwW.DjAmol.Com)-->
+                    <li>Adding<em> <br>
+  User-agent: *<BR>
+  Disallow: /?s=<br> 
+                    </em>to your robots.txt file would prevent Google from generating such pages </li>
+                  </ul>
+                </li>
+              <li> Drupal powers the SEO Book site, and our search URL is <em>/search/node/</em></li>
+              </ul>
+              <h3>Secured Version of Your Site Getting Indexed?</h3>
+              <p>In this guest post by Tony Spencer about <a href="http://www.djamol.com/?archives/001714.shtml">301 redirects and .htaccess</a> he offers tips on how to prevent your SSL https version of your site from getting indexed. </p>
+              <h3>Have Canonicalization or Hijacking Issues? </h3>
+              <p>Throughout the years some people have tried to <a href="http://www.seofaststart.com/blog/google-proxy-hacking">hijack other sites</a> using nefarious techniques with web proxies. <a href="http://googlewebmastercentral.blogspot.com/2006/09/how-to-verify-googlebot.html">Google</a>, <a href="http://www.ysearchblog.com/archives/000460.html">Yahoo! Search</a>, <a href="http://blogs.msdn.com/livesearch/archive/2006/11/29/search-robots-in-disguise.aspx">Microsoft Live Search</a>, and <a href="http://about.ask.com/en/docs/about/webmasters.shtml#21">Ask</a> all allow site owners to authenticate their bots. </p>
+              <ul>
+                <li>While I believe Google has fixed proxy hijacking right now, a good tip to minimize any hijacking risks is to use absolute links (like &lt;a href=&quot;http://www.djamol.com?about.shtml&quot;&gt;) rather than relative links (&lt;a href=&quot;about.shtml&quot;&gt;) .</li>
+              <li>If both the WWW and non WWW versions of your site are getting indexed you should <a href="http://www.djamol.com/archives/001714.shtml">301 redirect</a> the less authoritative version to the more important version.
+                <ul>
+                  <li>The version that should be redirected is the one that does not rank as well for most search queries and has fewer inbound links.</li>
+                <li>Back up your old .htaccess file before changing it! </li>
+                </ul><!--DjAmolGroup Inc. (WwW.DjAmol.Com)-->
+              </li>
+              </ul>
+              <h2>Want to Allow Indexing of Certain Files in Folder that are Blocked Using Pattern Matching?</h2>
+              <p>Aren't we a tricky one!</p>
+              <p>Originally robots.txt only supported a disallow directive, but some search engines also support an allow directive. The allow directive is poorly documented and may be handled differently by different search engines. Semetrical shared  information about <a href="http://blog.semetrical.com/googles-secret-approach-to-robots-txt/">how Google handles the allow directive</a>. Their research showed:</p>
+            <blockquote>  <p>The number of characters you use in the directive path is critical in  the evaluation of an Allow against a Disallow. The rule to rule them  all is as follows:</p>
+              <p><strong>A matching Allow directive beats a matching Disallow only if it contains more or equal number of characters in the path</strong></p></blockquote>
+<p>&nbsp;</p>
+             <a name="cave"></a> 

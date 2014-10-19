@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+sitemap: http://wap.djamol.com/xml/sitemap/files.xml
+sitemap: http://wap.djamol.com/xml/sitemap/folder.xml
