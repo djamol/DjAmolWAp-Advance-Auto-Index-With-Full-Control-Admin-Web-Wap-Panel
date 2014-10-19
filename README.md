@@ -61,6 +61,37 @@ Seo Djamol Wap     :
                      + Seo Image Title Gerator
                      +Seo - Automatic Create File /Folder Title 
                      aslo keyword and discription genrator automatic using folder or file name
+                     Folder Description Maker
+
+
+Admin Panel Functions 10 version and greater:
+                    Admin Panel Available in Web/Pc(/apanel.php) And WAp/Mobile9(/cp) Version,
+                    High Security For Admin Panel,
+                    New DjAmolWap Updates in Admin Panel
+          Admin Options :
+                    Files, File Manager, Upload file, Import files,
+                    Import / Grub,Mass renaming files,Advance orders Sections,
+                    Sections, Close Access to SMS, Close free-activation options,
+                    Reports, Settings, Comments,All Comment View/ Delete(All/Manualy),
+                    Cleanup comments, MySQL database, Full update database,
+                    Semi-automatic update database, Cleaning debrisfrom the database, 
+                    Optimize DB, Cleaning DB Settings, Settings Modules, MP3 tag, Tag Image, Url Copy file,
+                     Url Mp3 Tag, Mp3 Tag Manager, Index/ Logo, Index Editor, Header Logo,
+                     Footer Company Code, Security Security Log authorizations,Index Editor,
+                     Header Logo,Footer Company Code And Many More functions,
+                Plugin Setting
+                      -Mp3 Auto Tag,
+                      -Mp3 Player&Info,
+                      -Text Discription,
+                      -Image Screen Shot,
+                      -Share Files on Social Networking,
+                      -Files Rating,
+                      -Apk Preview,
+                      -Jar Preview,
+
+                          
+
+
 
 
 
