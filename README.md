@@ -113,10 +113,7 @@ New Admin Options : Plugin On/Off,
 
 ||||||||||13 Version ||||||||||||||
 Multi Language Website
-1) English
-2) Urdu
-3) Gujrati
-4) Russian
+1) English 2) Urdu 3) Gujrati 4) Russian
 -------------------------------------
 User/Visitor manual change language website
 -------------------------------------
