@@ -1,10 +1,10 @@
-#Djamolwap 13v -Advance Auto Index With Web Admin Panel + Multi Language + Themes
+#Djamolwap 14v -Advance Auto Index With Web Admin Panel + Multi Language + Themes
 
 Official Website : http://ai.djamol.com
 
 
 Free version Download Now
-DjAmolwap 13version -- >> http://ai.djamol.com/go.php?go=latest
+DjAmolwap 14version -- >> http://ai.djamol.com/go.php?go=latest
 
 
 Demo Of Future & Installation Live http://youtube.com/phpindia
@@ -154,7 +154,7 @@ New Admin Options :
       New Admin Options Pro Vesion :
                                Auto Genrated Sitemap (Pro Version)
                                All Mp3 Tag (Pro Version) And many more service and function pro version
-                               Buy Now Pro Version From http://ai.djamol.com
+  Buy Now Pro Version From http://djamol.com/contact.php
 
 
 
