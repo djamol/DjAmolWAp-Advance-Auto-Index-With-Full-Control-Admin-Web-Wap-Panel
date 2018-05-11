@@ -148,7 +148,7 @@ New Admin Options :
     Multi Language Support
     Easy To Create And Edit Custom/Current Language Using XML Editor
     Multi Language Plugin (ON/OFF)
-
+Old Version at https://code.google.com/archive/p/djamolwap/downloads
 ||||||||||14 version Pro|||||||
 
       New Admin Options Pro Vesion :
