@@ -1,10 +1,10 @@
 #Djamolwap 14v -Advance Auto Index With Web Admin Panel + Multi Language + Themes
 
-Official Website : http://ai.djamol.com
+Official Website :
 
 
 Free version Download Now
-DjAmolwap 14version -- >> http://ai.djamol.com/go.php?go=latest
+DjAmolwap 14version -- >> 
 
 
 Demo Of Future & Installation Live http://youtube.com/phpindia
