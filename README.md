@@ -154,7 +154,7 @@ Old Version at https://code.google.com/archive/p/djamolwap/downloads
       New Admin Options Pro Vesion :
                                Auto Genrated Sitemap (Pro Version)
                                All Mp3 Tag (Pro Version) And many more service and function pro version
-  Buy Now Pro Version From http://djamol.com/contact.php
+
 
 
 
